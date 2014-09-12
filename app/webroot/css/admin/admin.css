@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+*
+
+{
+
+	margin:0;
+
+	padding:0
+
+}
+
+
+
+.paginateSpan a
+{
+	left: 0.2em;
+    margin: 0 5px 0 0;
+    position: absolute;
+    top: 2px;
+	background-image: url("images/icons-red.png");
+	background-position: -208px -48px;
+	background-repeat: no-repeat;
+    display: block;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -99999px;
+    width: 16px;
+}
+
+.pagination .current 
+{
+	float:left;
+	padding: 5px 4px;
+	margin-left:5px;
+	border: 1px solid #DDDDDD;
+	background:#851A1A;
+	color:#FFF;
+}
+.pagination .number
+{
+	float:left;
+	margin-left:5px;
+}
+.pagination span a {
+    display: block;
+    padding: 4px 6px;
+}
+.pagination .no-display
+{
+	float:left;
+	border: 1px solid #DDDDDD;
+	padding: 4px;
+	margin-left: 3px;
+}
+.pagination .prev
+{
+	float:left;
+}
+.pagination .next
+{
+	float:left;
+	margin-left:5px;
+}
+
+.sub-bttn
+{	
+	/* background: url("images/ui-bg_highlight-soft_100_f6f6f6_1x100.png") repeat-x scroll 50% 50% #F6F6F6; */
+    border: 1px solid #DDDDDD;
+    color: #851A1A;
+    font-weight: bold;
+    outline: medium none;
+	padding:5px;
+	cursor:pointer;
+	float:left;
+}
+
+.package_leftformholders select
+{
+	font-size:12px;
+}
+.package_leftformholders .checkBoxStl
+{
+	width:300px;
+	float:left;
+}
+.package_leftformholders .checkBoxStl label
+{
+	width:250px;
+	float:left;
+}
+.package_leftformholders .checkBoxStl input
+{
+	width:50px;
+	float:left;
+}
+.infoMsg
+{
+	font-size:10x;
+	font-style:italic;
+	font-weight:normal !important;	
+}
+
+.advert_inner
+{
+	float: left;
+    width: 46%;
+	margin-top:10px;
+}
+.a_remove
+{
+	background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF !important;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    opacity: 0.7;
+    text-align: center;
+    width: 100px;
+	margin-top:-21px;
+	display:none;
+	font-size:12px;
+	margin-left:3px;
+}
+.a_remove:hover
+{
+	cursor:pointer;
+}
+.ui-state-disabled
+{
+	 background-image: none;
+    opacity: 0.35;
+}

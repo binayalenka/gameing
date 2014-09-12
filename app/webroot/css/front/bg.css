@@ -1,0 +1,144 @@
+#wrapper {
+	background:0
+}
+#container {
+	padding:0
+}
+.rightPane {
+	background:url("../../32569550139854965/images/bkg/hp-bkg-form.png") repeat-y;
+	min-height:400px;
+	width:450px
+}
+.slogan {
+	color:#FFF;
+	font-size:27px;
+	font-weight:300;
+	padding-top:220px;
+	width:450px
+}
+.slogan>span {
+	background:rgba(0, 0, 0, .75);
+	background:#000;
+	line-height:1.3em
+}
+.hpConfirmContainer {
+	background:url("../../086814278489495842/images/bkg/hp-bkg-gradient-big.png") repeat-y;
+	min-height:520px;
+	padding:70px 100px 0
+}
+.hpConfirmContainer h1 {
+	text-shadow:0 1px 3px rgba(0, 0, 0, .5)
+}
+.hpRegister, .hpLogin, .hpConfirm {
+	-moz-box-shadow:inset 0 0 1px #FFF, 0 0 5px rgba(0, 0, 0, .30);
+	-webkit-box-shadow:inset 0 0 1px #FFF, 0 0 5px rgba(0, 0, 0, .30);
+	box-shadow:inset 0 0 1px #FFF, 0 0 5px rgba(0, 0, 0, .30);
+	background:#FFF;
+	background:-webkit-gradient(linear, 0 0, 0 100%, from(rgba(255, 255, 255, .95)), to(rgba(255, 255, 255, .85)));
+	background:-webkit-linear-gradient(top, rgba(255, 255, 255, .95), rgba(255, 255, 255, .85));
+	background:-moz-linear-gradient(top, rgba(255, 255, 255, .95), rgba(255, 255, 255, .85));
+	background:-ms-linear-gradient(top, rgba(255, 255, 255, .95), rgba(255, 255, 255, .85));
+	background:-o-linear-gradient(top, rgba(255, 255, 255, .95), rgba(255, 255, 255, .85));
+	background:linear-gradient(top, rgba(255, 255, 255, .95), rgba(255, 255, 255, .85));
+	margin-top:20px;
+	margin-bottom:60px
+}
+.hpRegister>div, .hpLogin>div {
+	padding:20px
+}
+.hpRegister dl.form, .hpLogin dl.form {
+	overflow:visible
+}
+.hpRegister dl.form dt, .hpLogin dl.form dt {
+	text-align:left
+}
+.hpRegister dl.form dd, .hpLogin dl.form dd {
+	padding-bottom:10px
+}
+.hpConfirm .hpConfirmTop, .hpConfirm .hpConfirmBottom {
+	background:#dedee1;
+	padding:20px
+}
+.hpFacebook {
+	margin-top:80px
+}
+.hpFacebook>p {
+	width:140px
+}
+.hpConfirm {
+	margin-bottom:0
+}
+.hpLoading {
+	margin-top:80px;
+	margin-bottom:150px
+}
+.hpLogin {
+	margin-bottom:145px
+}
+.bgImage {
+	position:fixed;
+	height:200%;
+	left:-50%;
+	width:200%;
+	z-index:-1;
+
+	background:#e5e5e5;
+	
+}
+.bgImage img.pano {
+	display:block;
+	margin:auto;
+	min-height:50%;
+	min-width:50%;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0
+}
+.bgImage>div.gradient {
+	background:url("../../815570658273896789/images/bkg/hp-bkg-gradient.png") repeat-x;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	position:absolute
+}
+#default #footerContainer {
+	border-top:1px solid #fd8830;
+	padding-top:10px
+}
+#footer {
+	background:0
+}
+#footerContainer #footerMenu a {
+	color:#FFF
+}
+#footerContainer #footerMenu, #footerContainer .copyName {
+	padding-top:0;
+	color:rgba(255, 255, 255, .7)
+}
+#default #footerContainer ul.menu li>ul.submenu {
+	background:rgba(0, 0, 0, .9);
+	background:#000;
+	border:1px solid rgba(0, 0, 0, .9);
+	border:1px solid #000;
+	-moz-box-shadow:0 0 30px rgba(255, 255, 255, 0.30);
+	-webkit-box-shadow:0 0 30px rgba(255, 255, 255, 0.30);
+	box-shadow:0 0 30px rgba(255, 255, 255, 0.30)
+}
+#footerContainer #footerMenu ul.submenu>li>a:hover {
+	color:#59D!important;
+	text-decoration:none
+}
+#footerContainer .socialButton {
+	margin-right:0
+}
+.mobilePromote {
+	position:absolute;
+	bottom:20px;
+	left:0
+}
+.rtl .mobilePromote {
+	left:auto;
+	right:0
+}

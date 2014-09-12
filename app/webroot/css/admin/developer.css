@@ -1,0 +1,641 @@
+.adminLoginError {
+	color: #B50007;
+	font-size: 0.96em;
+	margin:0px 0px 0px 0px !important;
+}
+.adminLoginSubmit {
+	float:left;
+	width:450px;
+}
+.adminLoginButton {
+	float:left;
+	width:250px;
+	text-align:center;
+}
+.adminLoginWait {
+	float:left;
+	width:auto;
+	display:none;
+	margin-left: 25px !important;
+}
+.loading {
+	display: none;
+	float: left;
+	left: 50%;
+	position: absolute;
+	width: 50%;
+}
+.loadingText {
+	background: none repeat scroll 0 0 #FDF6AD;
+	border: 1px solid #E3D538;
+	border-radius: 0 0 5px 5px;
+	color: #000000;
+	float: left;
+	font-size: 20px;
+	padding: 2px 20px;
+	text-align: center;
+}
+.activate {
+	background: url("../../img/admin/active.png") no-repeat scroll 2px 2px transparent;
+	float: left;
+	height: 16px;
+	padding: 2px;
+	text-align: center;
+	width: 16px;
+}
+.de-activate {
+	float:left;
+	width:auto;
+	background:url(../../img/admin/deactive.png);
+}
+.deactive {
+	background: url("../../img/admin/deactive.png") no-repeat scroll 2px 2px transparent;
+	float: left;
+	height: 16px;
+	padding: 2px;
+	text-align: center;
+	width: 16px;
+}
+.university-add-Error {
+	color: #B50007;
+	font-size: 0.96em;
+}
+.student-add-Error {
+	color: #B50007;
+	font-size: 0.96em;
+}
+.tutor-add-Error {
+	color: #B50007;
+	font-size: 0.96em;
+}
+.tutor-add-Error_mail{
+	color: #B50007;
+	font-size: 0.96em;
+	padding:0px 0px 0px !important;
+}
+.job-add-Error {
+	color: #B50007;
+	font-size: 0.96em;
+}
+.search {
+	float:left;
+	width:100%;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+.search_contents {
+	float:left;
+	width:auto;
+	padding:5px;
+	min-width:85px;
+}
+.search h2 {
+	color: #000000;
+	font-family: "Segoe UI", Frutiger, Tahoma, Helvetica, "Helvetica Neue", Arial, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	letter-spacing: -1px;
+	width:auto;
+	float:left;
+	margin-right:20px;
+}
+.download {
+	float:right;
+	font-size:16px;
+}
+.primaryM {
+	float:left;
+	width:auto;
+}
+.primaryMMore {
+	float:left;
+	width:auto;
+	padding-left:15px;
+}
+.remove {
+	float:left;
+	margin-top:8px;
+	margin-left:1px;
+}
+.keywordleftdetail {
+	float:left;
+	margin-top:7px;
+}
+.keywordleftdetail input {
+	float:left;
+	border-top:1px solid #7c7c7c;
+	border-left:1px solid #c3c3c3;
+	border-right:1px solid #c3c3c3;
+	border-bottom:1px solid #ddd;
+	padding:4px;
+	width:184px;
+}
+.moreMobileText {
+	float:left;
+	width:auto;
+	font-size:12px;
+	font-weight:normal;
+}
+.moreMobileText span {
+	float:left;
+	padding:4px;
+	width:auto;
+	display:block;
+}
+.moreMobileDelete {
+	float:left;
+	width:auto;
+	padding-left:0px;
+	padding-top:5px;
+}
+.deleteMobileEmail {
+	float:left;
+	width:auto;
+}
+.ryt_form_static_text1 {
+	float:left;
+	width:100%;
+	padding-top:2px;
+}
+.c_edit1 {
+	width:16px;
+	height:16px;
+	float:left;
+	padding:2px !important;
+	display:block;
+	
+}
+.c_edit {
+	background:url(../../img/admin/c_edit.png) no-repeat;
+	width:15px;
+	height:15px;
+	float:left;
+	margin:0 !important;
+	padding:0 !important;
+	display:block;
+	background-position:2px 2px;
+}
+.d_edit1 {
+	width:16px;
+	height:16px;
+	float:left;
+	margin:0 !important;
+	padding:2px !important;
+	display:block;
+}
+.d_edit {
+	background:url(../../img/admin/d_edit.png) no-repeat;
+	width:15px;
+	height:15px;
+	float:left;
+	margin:0 !important;
+	padding:0 !important;
+	display:block;
+	background-position:2px 2px;
+}
+a.btn{ margin-right:0 !important;}
+
+.hastable table a.btn {
+    margin-bottom: 0;
+    margin-left: 0px !important;
+    margin-right: 5px !important;
+    margin-top: 0;
+}
+.email_rightvalidation
+{
+	float:left;
+	width:550px;
+	padding-top:0px;
+	margin-left:6px;
+}
+.successdeveloperClass
+{
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+	text-align:center;
+}
+.successMessageText
+{
+	float:left;
+	width:auto;
+	padding:10px;
+	font-size:13px;
+}
+.adminTutorSearchWait
+{
+	float:left;
+	width:auto;
+	margin-top:20px;
+	display:none;
+}
+.slct_form {
+	border: 1px solid #CCCCCC;
+	color: #666;
+	float: left;
+	font-size: 13px;
+	height: 28px;
+	margin-right: 14px;
+	padding-bottom: 4px;
+	padding-left: 0;
+	padding-top: 3px;
+	width: 89px;
+	line-height:23px;
+}
+.text_fore {
+	border: 1px solid #CCCCCC;
+	color: #666;
+	float: left;
+	font-size: 13px;
+	height: 20px;
+	margin-right: 14px;
+	padding-bottom: 4px;
+	padding-left: 5px;
+	padding-top: 3px;
+	width: 287px;
+}
+
+.slct_formname {
+	border: 1px solid #CCCCCC;
+	color: #666;
+	float: left;
+	font-size: 13px;
+	height: 28px;
+	margin-right: 14px;
+	padding-bottom: 4px;
+	padding-left: 0;
+	padding-top: 3px;
+	width: 293px;
+	line-height:23px;
+}
+.text_under {
+	float:left;
+	width:100px;
+	margin-right:7px;
+}
+.lft_form {
+	float:left;
+	width:28%;
+}
+.row_form {
+	float:left;
+	width:100%;
+	margin-bottom:5px;
+	margin-top:2px;
+}
+.ryt_form {
+	float:left;
+	width:95%;
+}
+.text_under2 {
+	float:left;
+	width:100%;
+	margin-right:7px;
+	margin-top:8px;
+}
+.chk_tutorreqformspace {
+	margin-left:0px !important;
+}
+.post_ticks_width {
+	float:left;
+	width:70% !important;
+	font-size:12px;
+	font-weight:normal;
+	color:#333;
+	padding-top:3px;
+}
+.post_ticks_width label {
+	float:left;
+	width:auto;
+	margin-right:3px;
+	min-height:20px;
+}
+.post_ticks_width label input {
+	float:left;
+	width:auto;
+	margin-top:-5px;
+}
+.loadingCourse
+{
+	float: left;
+	display:none;
+	width: auto;
+	margin-top:5px;
+}
+.loadingTier
+{
+	float: left;
+    display:none;
+    width: auto;
+	margin-top:5px;
+}
+.error
+{
+	color:#F00;
+	font-family: arial;
+    font-size: 10px;
+	text-transform: uppercase;
+	float:left;
+	width:100%;
+	padding:0px !important;
+}
+.admin_submitbtns{ padding-bottom:3px !important; padding-top:3px !important;}
+
+.error_msg
+{
+	float:left;
+	width:500px;
+	color:#F00;
+	font-size:12px;
+	padding-top:10px;
+}
+#renderJobRequest
+{
+	float:left;
+	width:100%;
+
+}
+.adminAddFaq
+{
+	float:left;
+	display:none;
+	width:auto;
+
+}
+.adminAddNewsletter
+{
+	float:left;
+	display:none;
+	width:auto;
+}
+.adminAddLanguage
+{
+	float:left;
+	display:none;
+	width:auto;
+}
+.renderCourseStyle
+{
+	float:left;
+
+}
+.subscribe_students{font-size:15px; font-weight:bold; margin-left:10px; float:left; width:400px; display:block; margin-bottom:3px; background:url(../../img/front/arrow_down.png) no-repeat top left; padding-left:21px; padding-bottom:0px; position:relative;} 
+
+.subscribe_tutors{font-size:15px; font-weight:bold; margin-left:10px; float:left; width:100%; display:block; margin-bottom:9px; background:url(../../img/front/arrow_down.png) no-repeat top left; padding-left:21px; padding-bottom:6px; position:relative; top:8px;} 
+.inserted_toursmain{ float:left; width:100%; text-align:center; padding:10px 0px 10px 0px;}
+.inserted_toursmain a{ float:left; width:auto; display:block; padding:6px; background:url(../../img/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png) #F6F6F6; margin-left:10px;
+border:1px solid #DDDDDD; font-weight:bold;}
+.inserted_toursmain a:hover{ float:left; width:auto; display:block; padding:6px; background:url(../../img/images/ui-bg_highlight-soft_5F25_0073ea_1x100.png) #F6F6F6; margin-left:10px;
+border:1px solid #9D9D9D; color:#333333; font-weight:bold;}
+
+.renderCourses0
+{
+	float:left;
+}
+#available_time
+{
+	float:left;
+	width:40%;
+	font-size:12px;
+}
+.admin_tableotherproperty{ border-left:0 !important;}
+
+.assigned{background: url("../../img/admin/arrow_smalls.png") no-repeat scroll 4px 4px transparent;
+	float: left;
+	height: 16px;
+	padding: 2px;
+	text-align: center;
+	width: 16px;}
+.rejected{background: url("../../img/admin/rejected.png") no-repeat scroll 4px 4px transparent;
+	float: left;
+	height: 16px;
+	padding: 2px;
+	text-align: center;
+	width: 16px;}
+.profile
+{
+	text-align:center;
+	font-size:14px;
+	width:auto;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.job_img
+{
+	background-image:url(../../img/admin/j.png);
+	background-repeat:no-repeat;
+	float: left;
+	height: 16px;
+	padding: 2px;
+	text-align: center;
+	width: 16px;
+	background-position:4px 3px;
+}	
+.view_student
+{
+	background-image:url(../../img/admin/s.png);
+	background-repeat:no-repeat;
+	float: left;
+	height: 16px;
+	padding: 2px;
+	text-align: center;
+	width: 16px;
+	background-position:4px 3px;
+}	
+.view_tutor
+{
+	background-image:url(../../img/admin/T.png);
+	background-repeat:no-repeat;
+	float: left;
+	height: 16px;
+	padding: 2px;
+	text-align: center;
+	width: 16px;
+	background-position:4px 3px;
+}
+.approve_tutor
+{
+	background-image:url(../../img/admin/a.png);
+	background-repeat:no-repeat;
+	float: left;
+	height: 16px;
+	padding: 2px;
+	text-align: center;
+	width: 16px;
+	background-position:4px 3px;
+}	
+.view_change
+{
+	background-image:url(../../img/admin/v.png);
+	background-repeat:no-repeat;
+	float: left;
+	height: 16px;
+	padding: 2px;
+	text-align: center;
+	width: 16px;
+	background-position:4px 3px;
+}	
+.reject_tutor
+{
+	background-image:url(../../img/admin/r.png);
+	background-repeat:no-repeat;
+	float: left;
+	height: 16px;
+	padding: 2px;
+	text-align: center;
+	width: 16px;
+	background-position:4px 3px;
+}		
+	
+.feedback
+{
+	background-image:url(../../img/admin/f.png);
+	background-repeat:no-repeat;
+	float: left;
+	height: 16px;
+	padding: 2px;
+	text-align: center;
+	width: 16px;
+	background-position:4px 3px;
+}	
+.public
+{
+	background-image:url(../../img/admin/p.png);
+	background-repeat:no-repeat;
+	float: left;
+	height: 16px;
+	padding: 2px;
+	text-align: center;
+	width: 16px;
+	background-position:4px 3px;
+}
+.editpublic
+{
+	background-image:url(../../img/admin/e.png);
+	background-repeat:no-repeat;
+	float: left;
+	height: 16px;
+	padding: 2px;
+	text-align: center;
+	width: 16px;
+	background-position:4px 3px;
+}		
+.tutor_qualificationsections {
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+	margin-top:3px;
+}
+.lft_form p {
+	float: left;
+	font-size: 13px;
+	line-height: 23px;
+	margin-left: 43px;
+	margin-top: 0px;
+	text-align: left;
+	width: 67%;
+}
+.edu_expforms_cont {
+    float: left;
+    width: 100%;
+}
+.edu_expright_forms{width: 100% !important;}
+.edu_expqualifications{float:left;
+	width:100%;
+	margin-bottom:10px;
+	margin-top:3px;}
+.edu_expqualifications p{ float:left; width:100%; display:block; margin-bottom:3px;}	
+.edu_expgeadewidth{ width:160px !important;}	
+	
+.edu_expformslabel{width: 50% !important;}
+.edu_expleftformsgaps{ float:left; margin-left:0px !important; width:100% !important; font-size:14px !important; font-weight:bold !important;}
+.edu_morehelps{ margin-top:7px !important;}
+
+.edu_expqualificationsbottom{float:left;
+	width:100%;
+	margin-bottom:10px;
+	margin-top:3px;}
+.edu_expqualificationsbottom input{ width:287px !important; margin-bottom:8px !important;}	
+.edu_expqualificationsbottom p{ float:left; width:100%; display:block; margin-bottom:3px; margin-top:0 !important; margin-bottom:6px;}
+.edu_expright{ float:left; width:80%;}
+.edu_expright textarea{ width:290px !important;}
+.edu_sepration{ float:left; width:50%;}
+.edu_sepration select{ float:left; width:287px !important;}
+.edu_sepration textarea{ float:left; width:290px !important; height:50px !important;}
+
+.editProfile
+{
+	float:right;
+	margin-right: 220px;
+    margin-top: -35px;
+	display:none;
+}
+.error_profile
+{
+	color: #FF0000;
+    font-family: arial;
+    font-size: 10px;
+    margin-left: 70px;
+    margin-top: 330px;
+    text-transform: uppercase;
+}
+.error_view_details {
+    color: #FF0000;
+    font-family: arial;
+    font-size: 10px;
+    margin-right: 200px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+.error_view_details_radio {
+    color: #FF0000;
+    font-family: arial;
+    font-size: 10px;
+    margin-right: 200px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.waitImageApplyTier
+{
+	margin-left:15px;
+	display:none;
+}
+.editPersonalDetail
+{
+	float:left;
+	width:auto;
+	display:none;
+	padding-left:20px;
+	padding-top:10px;
+}
+.errorTutorEdu {
+    color: #FF0000;
+    float: left;
+    width: 500px;
+}
+.newloading{
+	display: none;
+	float: left;
+	left: 12%;
+	position: absolute;
+	width: 50%;
+}
+.content-box-wrapper iframe
+{
+	width:700px !important;
+}
+.tabel_pros{ border:none !important;}
+.tabel_pros td{ border:none !important; padding:0px 4px 4px 0px !important;}
+.tabel_pros td input{ width:96% !important;}
+.vertical_aligntxt{ vertical-align:top !important;}
+
+/* DELETE AND STATUS UPDATE DIV */
+#Delete 
+{
+	display:none;
+}
+#Update
+{
+	display:none;
+}
+
+
